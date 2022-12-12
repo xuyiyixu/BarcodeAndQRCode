@@ -1,0 +1,79 @@
+%YAML:1.0
+---
+
+distCoeffs: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [-1.1510e-01,  6.3500e-02,
+         -3.7264e-04, -1.8170e-04, 0. ]
+
+
+cameraMatrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [ 1.7981e+03, 0.,
+          1.2376e+03, 0.,
+          1.7982e+03, 1.0200e+03,
+          0., 0., 1. ]
+
+
+HomoMatrix_21: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [ 8.3609026921682184e-01, -3.3615340430285395e-01,
+          2.4975146506690729e+02, 2.0918106638007083e-03,
+          4.0650015832957154e-01, 3.3628600978565595e+02,
+          -4.9256579498294517e-07, -2.6970939660580801e-04, 1. ]
+HomoMatrix_12: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [ 1.1941243836760882e+00, 6.4556034276265661e-01,
+          -5.1532722603873492e+02, -5.4217263029297429e-03,
+          2.0083334072618926e+00, -6.7402034375998414e+02,
+          -8.7410570337108721e-07, 5.4198437239933394e-04,
+          8.1795654721968525e-01 ]
+transferVector: !!opencv-matrix
+  rows: 3
+  cols: 1
+  dt: d
+  data: [ -6.5500552133944353e+01, 8.4751092301856783e+00,
+          3.6173768310974606e+02 ]
+rotationVector: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [ 9.9998613990380647e-01, -4.2937792150903936e-03,
+          -3.0468771450703610e-03, 5.2649786595098738e-03,
+          8.1552461663674580e-01, 5.7869843585342773e-01,
+          5.3202670892682710e-21, -5.7870645678058663e-01,
+          8.1553592004304698e-01 ]
+
+Ratio: 4.9666666666666666e+00
+
+
+chess_board_height: -3.
+floor_height: 0.
+HeightOfSemiFinishedRegionLower: 0.
+HeightOfSemiFinishedRegionHigher: -45.53
+HeightOfMaterialRegionHigher: -130.92
+HeightOfMaterialRegionLower: -26.77
+HeightOfFinishedRegionHigher: -45.53
+
+
+ChessBoardCornerNum_x: 11
+ChessBoardCornerNum_y: 8
+ChessBoardSize: 15
+
+
+ImageWidth: 2448
+ImageLength: 2048
+
+NumOfPoints: 6
+CircleMaxRadius: 50 #需修正
+CircleMinRadius: 15 #需修正
+CircleMinDistance: 5
+CircleHeartsDistance: 150.0
